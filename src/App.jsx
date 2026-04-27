@@ -2,8 +2,8 @@ import { useState } from 'react'
 import './App.css'
 import Navbar from './components/Navbar'
 import HeroSection from './components/HeroSection'
-import TripCard from './components/TripCard'
-import Experience from './components/experience'
+import TripList from './components/Triplist'
+import Destinations from './components/Destination'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -12,8 +12,9 @@ function App() {
     <>
       <Navbar></Navbar>
       <HeroSection></HeroSection>
-      <TripCard></TripCard>
-      <Experience></Experience>
+      <TripList></TripList>
+      <Destinations></Destinations>
+
       
     
     </>
